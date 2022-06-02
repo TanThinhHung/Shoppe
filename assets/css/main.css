@@ -12,8 +12,9 @@
     --primary-color: #ed4c2b;
     --header-height: 120px;
     --navbar-height: 45px;
-    --navbar-search-height: calc(var(var(--header-height))var(--navbar-height));
+    --navbar-search-height: calc(var(--header-height) - var(--navbar-height));
     --border-color: #dbdbdb;
+    --header-sort-bar-height: 46px;
 }
 
 html {
@@ -25,12 +26,6 @@ html {
 
 
 /*responsive*/
-
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .gird__full-width {
     width: 100%;
